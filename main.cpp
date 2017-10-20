@@ -4,10 +4,10 @@ using namespace std;
 
 int main()
 {
-  vector<vector<char>> matrix;
+  vector<vector<char> > matrix;
   int rows, columns;
 
-  cout << "Enters rows and columns of stars:" << endl;
+  cout << "Enter rows and columns of stars:" << endl;
   cin >> rows >> columns;
 
   if (rows > 0 && columns > 0) {
